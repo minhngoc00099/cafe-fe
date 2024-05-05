@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.ant-table-thead .ant-table-cell {
+  text-align: center !important;
+  color: #fff !important;
+  background-color: #036CBF !important;
+}
+
+.ant-table-thead>tr>th {
+  border-inline-end: 1px solid #b8b8b8 !important;
+}
+
+/* Đối với viền của các ô dữ liệu trong bảng */
+.ant-table-tbody>tr>td {
+  border-inline-end: 1px solid #b8b8b8 !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:first-child {
+  border-start-start-radius: 0px !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:last-child {
+  border-start-end-radius: 0px !important;
+}
+
+.ant-table.ant-table-bordered>.ant-table-container>.ant-table-summary>table>tfoot>tr>td {
+  border-inline-end: 1px solid #b8b8b8 !important;
+}
+
+.ant-table-wrapper .ant-table-tbody>tr>td {
+  border-bottom: 1px solid #b8b8b8;
+  /* border-left: 1px solid #000; */
+}
+
+.ant-table-wrapper .ant-table-tbody>tr>td:first-child {
+  border-left: 1px solid #b8b8b8;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th {
+  border-bottom: 1px solid #b8b8b8;
+  border-top: 1px solid #b8b8b8;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th:first-child {
+  border-left: 1px solid #b8b8b8;
+}
+
+.ant-table-wrapper .ant-table-thead>tr:second-child>th {
+  border-bottom: 1px solid #b8b8b8;
+  border-top: 1px solid #b8b8b8;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th:first-child {
+  border-left: 1px solid #b8b8b8;
+}
+.ant-select-selection-item{
+  text-align: start;
+}
