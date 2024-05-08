@@ -1,0 +1,75 @@
+.drawer-payment-sidebar .content-drawer-payment-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .header-info-cafe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .header-info-cafe .name-cafe {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .header-info-cafe .address-cafe {
+  padding-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.156);
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .header-info-cafe .title-info-order {
+  padding-top: 10px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-order {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-order .time-in-out {
+  padding-bottom: 10px;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-order .info-customer {
+  padding-bottom: 20px;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-payment {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-payment .item-infor-payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  font-weight: 450;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-payment .item-infor-payment .input-number {
+  outline: none !important;
+  font-size: 1rem;
+  width: 200px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.188);
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-payment .item-infor-payment .input-number:focus {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.drawer-payment-sidebar .content-drawer-payment-sidebar .info-payment .item-infor-payment .input-number:hover {
+  border-color: rgb(88, 151, 234);
+}
+
+.button-payment {
+  background-color: rgb(27, 158, 27);
+}
+
+.hidden {
+  display: none;
+}
+
+.ant-input-number-handler-wrap {
+  display: none !important;
+}/*# sourceMappingURL=DrawerPayment.css.map */

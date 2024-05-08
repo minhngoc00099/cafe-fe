@@ -1,0 +1,26 @@
+.order {
+  padding: 10px;
+}
+.order .content-tab-order {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .content-tab-order .list-order {
+  width: 100%;
+  align-self: flex-start;
+  padding: 20px;
+  height: 100%;
+  margin-top: 30px;
+}
+.order .content-tab-order .empty-order-in-order-page {
+  align-self: center;
+  justify-self: center;
+}
+.order .content-tab-order .pagination-order-tab {
+  align-self: center;
+  margin-bottom: 4rem;
+}/*# sourceMappingURL=Order.css.map */
