@@ -1,0 +1,34 @@
+.order{
+    padding: 10px;
+
+    .content-tab-order{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+            .list-order{
+                width: 100%;
+                  align-self: flex-start;
+                    padding: 20px;
+                    height: 100%;
+                    margin-top: 30px;
+                    
+            }
+            .empty-order-in-order-page{
+                // padding-left: 373px;
+                // padding-top: 60px
+                align-self: center;
+                justify-self: center;
+               }
+            .pagination-order-tab{
+                align-self: center;
+                margin-bottom: 4rem;
+                // justify-content: space-between;
+            
+            
+            }
+    }
+}

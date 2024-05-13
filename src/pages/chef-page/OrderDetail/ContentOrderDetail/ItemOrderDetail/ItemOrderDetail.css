@@ -1,0 +1,40 @@
+.item-order-detail {
+  width: 100%;
+}
+.item-order-detail .content-item-order-detail {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+.item-order-detail .content-item-order-detail .icon-delete-order-detail {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.396);
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.066);
+  border-radius: 50px;
+}
+.item-order-detail .content-item-order-detail .icon-delete-order-detail:hover {
+  background-color: rgba(0, 0, 0, 0.122);
+}
+.item-order-detail .content-item-order-detail .name-product-order-detail {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.item-order-detail .content-item-order-detail .icon-control-amount {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.item-order-detail .content-item-order-detail .icon-control-amount:hover {
+  opacity: 0.8;
+}
+.item-order-detail .content-item-order-detail:hover {
+  border-radius: 10px;
+  border: 1px solid rgba(22, 119, 255, 0.4823529412);
+}
+.item-order-detail .content-item-order-detail .icon-control-amount {
+  color: rgba(0, 0, 0, 0.356);
+  cursor: pointer;
+}
+.item-order-detail .content-item-order-detail .icon-control-amount:hover {
+  color: rgba(0, 0, 0, 0.556);
+}/*# sourceMappingURL=ItemOrderDetail.css.map */
